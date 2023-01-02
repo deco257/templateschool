@@ -86,7 +86,8 @@
     margin-left:9%;
 }
 .menubar .nav a{
-    margin: 60px;
+    margin: 20px;
+    text-decoration: none;
 }
 .aside .box {
     position: relative;
