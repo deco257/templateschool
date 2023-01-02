@@ -32,4 +32,17 @@ $('.men1').mouseleave(function(){
 $('ul #list').hide();
 });
 
+$(' ul #list1').hide();
+
+$('.men2').mouseenter(function(){
+
+   $(' ul #list1').show().css({'list-style':'none',
+   'background':'white','color':'black'});
+
+});
+$('.men2').mouseleave(function(){
+
+$('ul #list1').hide();
+});
+
 })
