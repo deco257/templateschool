@@ -1,0 +1,333 @@
+.container .side {
+    background: rgb(53, 127, 211);
+    width: 16%;
+    height: 98vh;
+    position: absolute;
+}
+
+.container .side .center {
+    background-color: white;
+
+    border-radius: 50%;
+    width: 56%;
+    height: 160px;
+    margin-top: 30px;
+   
+}
+
+.container {
+    display: flex;
+}
+
+.container .menubar {
+    background-color: white;
+    quotes: inherit;
+    width: 100%;
+    height: 40px;
+    margin-left: 10%;
+   
+    box-shadow: 10px 12px 10px 0 #f1f1f1;
+}
+
+.aside {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 25%;
+    margin-top: 90px;
+    display: flex;
+
+}
+.img{
+    width:150px;
+    height: 140px;
+}
+.aside .box .clock {
+    box-shadow: 10px 6px 10px 5px #f1f1f1;
+    height: 110px;
+    width: 50%;
+    position: absolute;
+    margin-left: 80px;
+    border-radius: 50%;
+}
+.aside .box .clock:hover{
+    background:linear-gradient(cyan,blue);
+    transition: ease .5s;
+    
+}
+.aside .box .clock #horloge {
+    position: absolute;
+    margin-top: 50px;
+    width: 70%;
+    margin-left: 15%;
+    box-shadow: 10px 6px 10px 5px #f1f1f1;
+}
+
+.aside .box .student {
+    position: absolute;
+    margin-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.aside .box #number{
+    position: absolute;
+    width: 150px;
+    height: 59px;
+    border: none;
+    border-radius: 59px 120px 0 0;
+    margin-left: 12px;
+    background: linear-gradient(cyan,yellow);
+
+}
+
+.menubar .nav {
+    
+    justify-content: space-evenly;
+    text-decoration: none;
+    position: absolute;
+    margin-left:9%;
+}
+.menubar .nav a{
+    margin: 60px;
+}
+.aside .box {
+    position: relative;
+    display: flex;
+    width: 230px;
+    height: 120px;
+    margin: 10px;
+    box-shadow: 10px 12px 10px 0 #f1f1f1;
+
+}
+
+#sous-menu{
+
+    height: 40px;
+    font-size: larger;
+    background-color: rgb(53, 127, 211);
+  
+    color:white
+    
+}
+.highchart{
+    position: absolute;
+    margin-left: 25%;
+    margin-top: 300px;
+    font-size: larger;
+    display: flex;
+    
+}
+.highchart .chart{
+    margin: 10px;
+    width: 400px;
+    height: 270px;
+    box-shadow: 10px 12px 10px 0 #f1f1f1;
+}
+.highchart .chart .circle{
+    position: absolute;
+   box-shadow: 10px 12px 10px 0 #f1f1f1;
+   border-radius: 50%;
+   width: 220px;
+   height: 220px;
+   margin-top: 30px;
+   margin-left: 10%;
+   background:greenyellow
+}
+.highchart .chart .circle .pt-cercle{
+    position:absolute;
+    margin-top: 30%;
+    margin-left:30%;
+    background:white;
+    width: 40%;
+    height: 90px;
+    border-radius: 50%;
+   
+
+}
+.highchart .chart .bars {
+    display: flex;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 4%;
+}
+
+.highchart .chart .bars .bar1 {
+    
+    margin-top: 30%;
+    background:blue;
+    width: 50px;
+    height: 220px;
+    margin: 10px;
+}
+.highchart .chart .bars .bar2 {
+    
+    margin-top: 30%;
+    background:yellowgreen;
+    width: 50px;
+    height: 220px;
+    margin: 10px;
+}
+.highchart .chart .bars .bar3 {
+    
+    margin-top: 30%;
+    background:cyan;
+    width: 50px;
+    height: 220px;
+    margin: 10px;
+}
+.highchart .chart .bars .bar4 {
+    
+    margin-top: 30%;
+    background:orange;
+    width: 50px;
+    height: 220px;
+    margin: 10px;
+}
+.highchart .chart .bars .bar5 {
+    
+    margin-top: 30%;
+    background:pink;
+    width: 50px;
+    height: 220px;
+    margin: 10px;
+}
+#dash{
+    background:white;
+    color: black;
+    border: none;
+    height: 50px;
+    margin-top: 2px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#sous-menu:hover {
+    background: azure;
+    transition: all .5s;
+    color: black;
+    cursor: grab;
+}
+
+ul:focus {
+    background-color: red;
+}
+
+.login {
+    width: 280px;
+    height: 300px;
+    background-color: white;
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 15%;
+    box-shadow: 11px 12px 30px 0 #ddd;
+}
+
+.login input {
+    width: 250px;
+    height: 25px;
+    border-radius: 40px;
+    background: #f1f1f1;
+    border: none;
+    text-align: center;
+   
+}
+.login form{
+    margin-left:10px;
+}
+.login input:focus{
+    
+    overflow: hidden;
+    outline: #f1f1f1;
+}
+
+#btn{
+    color: white;
+    border: none;
+    background: blue;
+    width: 60%;
+    height: 30px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 50px;
+position: absolute;
+margin-left: 16%;
+}
+.orages .orage .rain{
+    display: flex;
+    position: relative;
+    z-index: 1;
+    margin-top: -12px;
+    margin-left: 30%;
+    
+    
+}
+.orages .orage .rain span{
+    background:white;
+    width: 7px;
+    height: 20px;
+    margin: 10px;
+    margin-top: -80px;
+    border-radius: 50%;
+    bottom:10%;
+    animation: animate 5s linear infinite;
+    animation-duration: calc(25s /var(--i));
+    transform-origin: bottom;
+   
+}
+@keyframes animate{
+    0%{
+        transform: translateY(0) scale(0);
+    }
+   
+    70%{
+        transform: translateY(228px) scale(1);
+    }
+    100%{
+        transform: translateY(299px) scale(0);
+    }
+}
+
+.orages{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    background:linear-gradient(cyan,blue);
+    border: 2px solid white;
+}
+.orages .orage{
+    background-color: white;
+    width: 100%;
+    height: 80px;
+   border-bottom-right-radius: 34px;
+   margin-top: -50px;
+}
+.orages .orage .oragee{
+    background:white;
+    width: 400px;
+    z-index: 1;
+    height: 100px;
+    margin-top: 20px;
+    margin-left:70%;
+    border-bottom-right-radius: 50px;
+    border-end-end-radius: 70px;
+    border-bottom-left-radius: 120px;
+
+}
+.sun .smsun{
+    position: absolute;
+    
+    border-radius: 50%;
+    width: 97%;
+    height: 114px;
+    margin-left: 2px;
+    background-color: rgb(248, 206, 16);
+}
+.sun{
+    border: 2px solid  white;
+    
+    width: 120px;
+    position: absolute;
+    z-index: 1;
+    background-color: white;
+    margin-top: 10px;
+    margin-left: 30px;
+    height: 120px;
+    border-radius: 50%;
+}
