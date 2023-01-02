@@ -24,12 +24,17 @@ $('document').ready(function(){
  $('.men1').mouseenter(function(){
 
     $(' ul #list').show().css({'list-style':'none',
-    'background':'white','color':'black'});
+    'background':'white',
+    'color':'black','border':'1px solid blue'
+    ,'magrin-top':'150px'
+});
+    $('.users').css({'margin-top':'60px'})
 
 });
 $('.men1').mouseleave(function(){
 
 $('ul #list').hide();
+$('.users').css({'margin-top':'10px'})
 });
 
 $(' ul #list1').hide();
@@ -37,12 +42,15 @@ $(' ul #list1').hide();
 $('.men2').mouseenter(function(){
 
    $(' ul #list1').show().css({'list-style':'none',
-   'background':'white','color':'black'});
+   'background':'white','color':'black',
+   'border':'1px solid blue','magrin-top':'150px'});
+   $('.men1').css({'margin-top':'90px'})
 
 });
 $('.men2').mouseleave(function(){
 
 $('ul #list1').hide();
+$('.men1').css({'margin-top':'10px'})
 });
 
 })
